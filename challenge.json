@@ -2,9 +2,14 @@
   "challenge_id": "cricpulse-live-analytics-node-react",
   "runtime_config": {
     "runtime_type": "node-react",
-    "install_command": "npm install",
-    "start_command": "npm start",
+    "install_command": "npm install && cd client && npm install && npm run build",
+    "start_command": "node server/server.js",
     "test_command": "npm test",
-    "ports": [{ "container_port": 3000, "type": "preview" }]
+    "ports": [
+      {
+        "container_port": 3000,
+        "type": "preview"
+      }
+    ]
   }
 }
