@@ -1,0 +1,13 @@
+{
+  "name": "cricpulse-node-react-challenge",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "cd client && npm run build",
+    "test": "node tests/run_tests.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
