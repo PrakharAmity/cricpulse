@@ -14,7 +14,7 @@
 - **Fan Zone Live Poll**: Interactive real-time audience prediction poll ("Will India chase down 211 in 18 overs?") with sliding-window per-fan rate limiting.
 
 ### Technology Stack
-- **Backend**: Node.js, Express 4/5, in-memory state model, RESTful APIs, CORS enabled, serving on port **5000**.
+- **Backend**: Node.js, Express 4/5, in-memory state model, RESTful APIs, CORS enabled, serving on port **3000**.
 - **Frontend**: React 18, Vite bundling, custom dark sports analytics design system (`#080c14` theme, glassmorphism, Google Fonts Outfit & Inter, neon cyan/blue sports accents).
 - **Benchmarking Suite**: Self-contained test harness emitting strict single-line JSON telemetry for candidate evaluations.
 

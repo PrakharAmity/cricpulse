@@ -2,7 +2,7 @@
 
 ## Description
 
-CricPulse is a high-performance, offline-capable live cricket analytics match center designed for teams, tacticians, and fans tracking a high-stakes T20 chase. It runs as a self-contained Node.js (Express) backend service paired with a React 18 browser interface on port 5000. The application simulates the second innings of an ICC T20 Super 8 match between India (chasing 211, currently 161/3 in 12.0 overs) and Australia (210/7 in 20.0 overs), providing ball-by-ball momentum, partnership network graphs, rolling run rate metrics, a role-restricted tactical dugout workspace, and an interactive fan poll.
+CricPulse is a high-performance, offline-capable live cricket analytics match center designed for teams, tacticians, and fans tracking a high-stakes T20 chase. It runs as a self-contained Node.js (Express) backend service paired with a React 18 browser interface on port 3000. The application simulates the second innings of an ICC T20 Super 8 match between India (chasing 211, currently 161/3 in 12.0 overs) and Australia (210/7 in 20.0 overs), providing ball-by-ball momentum, partnership network graphs, rolling run rate metrics, a role-restricted tactical dugout workspace, and an interactive fan poll.
 
 ## Repository Structure
 
@@ -13,7 +13,7 @@ cricpulse-node-react-challenge/
 ├── README.md                      Candidate-facing application overview and bug reproduction guide
 ├── AI.md                          Challenge architecture, bug locations, and benchmark specification
 ├── server/
-│   ├── server.js                  Express HTTP server on port 5000, REST API routes, and static SPA serving
+│   ├── server.js                  Express HTTP server on port 3000, REST API routes, and static SPA serving
 │   ├── data/
 │   │   └── matchData.js           Deterministic in-memory match state fixture, players, and partnership graph
 │   └── services/

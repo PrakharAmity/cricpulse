@@ -5,6 +5,6 @@
     "install_command": "npm install",
     "start_command": "npm start",
     "test_command": "npm test",
-    "ports": [{ "container_port": 5000, "type": "preview" }]
+    "ports": [{ "container_port": 3000, "type": "preview" }]
   }
 }
